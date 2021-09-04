@@ -1,0 +1,78 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+.bg-primary {
+  opacity: .8;
+}
+
+/*.container-fluid {
+  padding: 0 10px 0 25px;
+}*/
+
+.navbar {
+  padding-bottom: 0;
+}
+
+
+.navbar-nav {
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+#nav-list {
+  background-color: snow;
+}
+
+#nav-list a {
+  font-size: 1.05em;
+  color: black;
+}
+
+#chicken-style {
+  border: 1px solid black;
+}
+
+#beef-style {
+  border: 0;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#sushi-style {
+  border: 1px solid black;
+}
+
+/** EMD HEADER **/
+
+/** FOOD DESCRIPTION PAGE **/
+
+#food-title {
+  padding-top: 15px;
+  margin-bottom: 15px;
+}
+
+.menu-item-description {
+  background-color: skyblue;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 1000px;
+}
+
+h3.menu-item-title {
+  margin-bottom: 15px;
+}
+
+/******* MOBILE (xs-based) *******/
+@media (max-width: 575.98px) {
+  .col-xs-12 {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+  }
+}
